@@ -18,125 +18,141 @@
 
 <body>
     <header>
+
         <!-- navbar -inicio -->
-        <!-- Load font awesome icons -->
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <nav class="navbar navbar-expand-md  navbar-dark">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <!-- Brand -->
             <a class="navbar-brand" href="../index.html"><img src="../imagenes/sentirlogo2.svg" alt="logo"></a>
 
-            <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!-- The navigation menu -->
-            <div class="navbar">
-                <a class="nav-link" href="../index.html"> Inicio </a>
-                <div class="subnav">
-                    <button class="subnavbtn" <i class="fa fa-caret-down"></i></button>
-                    <a href="/secciones/talleres.html"> Talleres </a>
-                    <div class="subnav-content">
-                        <a class="nav-link" href="/secciones/paraadultos.html"> Para Adultos/as </a>
-                        <a class="nav-link" href="/secciones/paraniños.html"> Para Niños/as </a>
-                        <a href="/secciones/talleresmonograficos.html"> Talleres Monograficos </a>
-                    </div>
-                </div>
-                <div>
-                    <a href="/secciones/quees.html"> Que es </a>
-                </div>
-                <div>
-                    <a href="/secciones/sesionesindividuales.html"> Sesiones Individuales </a>
-                </div>
-                <div>
-                    <a href="/secciones/sobremi.html"> Sobre Mi </a>
-                </div>
-                <div>
-                    <a href="/secciones/galeria.html"> Galeria </a>
-                </div>
-                <div>
-                    <a href="/secciones/contactos.html"> Contactos </a>
-                </div>
-                <!-- navbar -fin -->
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link" href="../index.html"> Inicio </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="/secciones/talleres.html"> Talleres </a>
+
+                        <ul>
+                            <li>
+                                <a class="nav-link"="dropdown-item" href="/secciones/paraniños.html"> Para Niños/as
+                                </a>
+                                <a class="nav-link"="dropdown-item" href="/secciones/paraadultos.html"> Para Adultos/as
+                                </a>
+                                <a class="nav-link"="dropdown-item" href="/secciones/talleresmonograficos.html">
+                                    Talleres Monograficos </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="/secciones/quees.html"> Que es </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="/secciones/sesionesindividuales.html"> Sesiones Individuales </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/secciones/galeria.html"> Galeria </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="/secciones/sobremi.html"> Sobre Mi </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="/secciones/contactos.html"> Contactos </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+        <!-- navbar -fin -->
+
     </header>
-        <main>
-            <h1 class="titulo"> Para Adultos </h1>
-            <!-- jumbotron -inicio -->
-            <div class="jumbotron_adultos">
-                <h2> NO ES NECESARIO TENER HABILIDADES ARTÍSTICAS </h2>
-                <p> En el camino suceden muchas cosas que pueden resultarnos beneficiosas.
-                    ¡Anímate a darte un tiempo para venir a experimentarlas! </p>
-            </div>
-            <!-- jumbotron -fin -->
+    <main>
+        <h1 class="titulo"> Para Adultos </h1>
+        <!-- jumbotron -inicio -->
+        <div class="jumbotron_adultos">
+            <h2> NO ES NECESARIO TENER HABILIDADES ARTÍSTICAS </h2>
+            <p> En el camino suceden muchas cosas que pueden resultarnos beneficiosas.
+                ¡Anímate a darte un tiempo para venir a experimentarlas! </p>
+        </div>
+        <!-- jumbotron -fin -->
 
-            <div class="container-fluid">
-                <div class="row">
-                    <h2 class="bg-dark col-12"> TALLERES GRUPALES </h2>
-                    <div class="n-left col-xs-12 col-md-6">
-                        <h3 class="text-center">EN QUÉ CONSISTEN</h3>
-                        <p data-aos="flip-up"> Talleres abiertos a toda aquella persona interesada en vivenciar una
-                            experiencia de trabajo
-                            creativo. A partir de un tema propuesto que sirve como guía y disponiendo de una cantidad
-                            variada de materiales, los/as participantes eligen qué hacer y cómo hacerlo. Trabajando a su
-                            propio ritmo es una oportunidad para experimentar, reflexionar, descubrir y elaborar
-                            significados e ideas de forma creativa. Normalmente, al finalizar el trabajo individual y si
-                            se desea, las personas del grupo comparten sus imágenes y creaciones con el resto de
-                            compañeras/os.
+        <div class="container-fluid">
+            <div class="row">
+                <h2 class="bg-dark col-12"> TALLERES GRUPALES </h2>
+                <div class="n-left col-xs-12 col-md-6">
+                    <h3 class="text-center">EN QUÉ CONSISTEN</h3>
+                    <p data-aos="flip-up"> Talleres abiertos a toda aquella persona interesada en vivenciar una
+                        experiencia de trabajo
+                        creativo. A partir de un tema propuesto que sirve como guía y disponiendo de una cantidad
+                        variada de materiales, los/as participantes eligen qué hacer y cómo hacerlo. Trabajando a su
+                        propio ritmo es una oportunidad para experimentar, reflexionar, descubrir y elaborar
+                        significados e ideas de forma creativa. Normalmente, al finalizar el trabajo individual y si
+                        se desea, las personas del grupo comparten sus imágenes y creaciones con el resto de
+                        compañeras/os.
 
-                            Unas veces los talleres estarán más estructurados o semi-estructurados mientras que otras
-                            serán más libres y orientados a la creación espontánea. </p>
-                    </div>
-                    <div class="n-right col-xs-12 col-md-6">
-                        <img data-aos="fade-up" data-aos-duration="3000" src="../imagenes/talle-adultos.jpg"
-                            alt="taller_niños">
-                    </div>
+                        Unas veces los talleres estarán más estructurados o semi-estructurados mientras que otras
+                        serán más libres y orientados a la creación espontánea. </p>
+                </div>
+                <div class="n-right col-xs-12 col-md-6">
+                    <img data-aos="fade-up" data-aos-duration="3000" src="../imagenes/talle-adultos.jpg"
+                        alt="taller_niños">
                 </div>
             </div>
+        </div>
 
 
-        </main>
+    </main>
 
-        <footer>
+    <footer>
 
-            <div class="container-fluid_footer">
-                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000"
-                    class="footer-left_btn col-xs-12 col-md-6">
-                    <a href="../index.html">
-                <img src="../imagenes/sentirlogo2.svg" alt="logo"></a>
-                </div>
-                <div class="footer-right_btn col-xs-12 col-md-6">
-                    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000"
-                        class="btn__redes_footer">
-                        <a class="btn_contactos" button type="button" href=""><img src="../imagenes/whatsapp.png"
-                                alt="Celular"></a>
+        <div class="container-fluid_footer">
+            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000"
+                class="footer-left_btn col-xs-12 col-md-6">
+                <a href="../index.html">
+                    <img src="../imagenes/sentirlogo2.svg" alt="logo"></a>
+            </div>
+            <div class="footer-right_btn col-xs-12 col-md-6">
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000" class="btn__redes_footer">
+                    <a class="btn_contactos" button type="button" href=""><img src="../imagenes/whatsapp.png"
+                            alt="Celular"></a>
 
-                        <a class="btn_contactos" button type="button" href=""><img src="../imagenes/facebook.png"
-                                alt="Celular"></a>
+                    <a class="btn_contactos" button type="button" href=""><img src="../imagenes/facebook.png"
+                            alt="Celular"></a>
 
-                        <a class="btn_contactos" button type="button" href=""><img src="../imagenes/instagram.png"
-                                alt="instagram"></a>
+                    <a class="btn_contactos" button type="button" href=""><img src="../imagenes/instagram.png"
+                            alt="instagram"></a>
 
-                        <a class="btn_contactos" button type="button" href=""><img src="../imagenes/gmail.png"
-                                alt="gmail"></a>
+                    <a class="btn_contactos" button type="button" href=""><img src="../imagenes/gmail.png"
+                            alt="gmail"></a>
 
-                    </div>
                 </div>
             </div>
+        </div>
 
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
-            integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
-        </script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

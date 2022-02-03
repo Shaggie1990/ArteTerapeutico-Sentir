@@ -18,46 +18,63 @@
 
 <body>
     <header>
+
         <!-- navbar -inicio -->
-        <!-- Load font awesome icons -->
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <nav class="navbar navbar-expand-md  navbar-dark">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <!-- Brand -->
             <a class="navbar-brand" href="../index.html"><img src="../imagenes/sentirlogo2.svg" alt="logo"></a>
 
-            <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!-- The navigation menu -->
-            <div class="navbar">
-                <a class="nav-link" href="../index.html"> Inicio </a>
-                <div class="subnav">
-                    <button class="subnavbtn" <i class="fa fa-caret-down"></i></button>
-                    <a href="/secciones/talleres.html"> Talleres </a>
-                    <div class="subnav-content">
-                        <a class="nav-link" href="/secciones/paraadultos.html"> Para Adultos/as </a>
-                        <a class="nav-link" href="/secciones/paraniños.html"> Para Niños/as </a>
-                        <a href="/secciones/talleresmonograficos.html"> Talleres Monograficos </a>
-                    </div>
-                </div>
-                <div>
-                    <a href="/secciones/quees.html"> Que es </a>
-                </div>
-                <div>
-                    <a href="/secciones/sesionesindividuales.html"> Sesiones Individuales </a>
-                </div>
-                <div>
-                    <a href="/secciones/sobremi.html"> Sobre Mi </a>
-                </div>
-                <div>
-                    <a href="/secciones/galeria.html"> Galeria </a>
-                </div>
-                <div>
-                    <a href="/secciones/contactos.html"> Contactos </a>
-                </div>
-                <!-- navbar -fin -->
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link" href="../index.html"> Inicio </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="/secciones/talleres.html"> Talleres </a>
+
+                        <ul>
+                            <li>
+                                <a class="nav-link"="dropdown-item" href="/secciones/paraniños.html"> Para Niños/as
+                                </a>
+                                <a class="nav-link"="dropdown-item" href="/secciones/paraadultos.html"> Para Adultos/as
+                                </a>
+                                <a class="nav-link"="dropdown-item" href="/secciones/talleresmonograficos.html">
+                                    Talleres Monograficos </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="/secciones/quees.html"> Que es </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="/secciones/sesionesindividuales.html"> Sesiones Individuales </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/secciones/galeria.html"> Galeria </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="/secciones/sobremi.html"> Sobre Mi </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="/secciones/contactos.html"> Contactos </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+        <!-- navbar -fin -->
+
     </header>
     <main>
         <h1 class="titulo"> Talleres </h1>
@@ -158,10 +175,10 @@
                 <div class="efect1">
                     <i class="fas fa-angle-up"></i>
                     <h4> Inteligencia Emocional </h4>
-                <p>Lorem, ipsum dolor.</p>
+                    <p>Lorem, ipsum dolor.</p>
                 </div>
             </div>
-            
+
         </div>
 
 
