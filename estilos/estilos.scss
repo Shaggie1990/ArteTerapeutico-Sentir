@@ -39,7 +39,7 @@
       display: flex;
       align-items: center;
       flex-direction: row;
-      background-color: $color6;
+      background-color: $color7;
     }
     
     main {
@@ -1104,24 +1104,28 @@
     /* seccion Contacto  -  Inicio */
     
 .container-fluid_footer {
-      background-color: #343a40;
+      background-color: $color3;
       min-height: 200px;
       width: 100%;
       padding: 20px;
       display: flex;
       flex-wrap: wrap;
-    }
 
-.footer-left_btn img{
+      .footer-left_btn img{
         width: 100% ;
         height: 150px;
         display: flex;
         flex-wrap: wrap;
       }
-.footer-right_btn img{
+      .footer-right_btn img{
         width:  50px;
         display: flex;
         flex-wrap: wrap;
       }
+}
+    
+    
+    
+    
     
     /* seccion Contacto  -  Fin */
